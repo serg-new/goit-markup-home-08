@@ -25,6 +25,7 @@
     color: var(--secondary-text-color);
     display: block;
     margin-bottom: 32px;
+    text-decoration: none;
 
 
 
@@ -32,10 +33,14 @@
     &:focus {
         color: var(--accent-text-color);
     }
+        @media screen and (max-width: 375px) {
+            font-size: 20px;
+        }
+                @media screen and (min-width: 375px) and (max-width: 460px) {
+                    font-size: 24px;
+                }
 
-    @media screen and (max-width: 400px) {
-        font-size: 24px;
-    }
+    
 }
 .aut-mobile-menu__link--mail {
 font-weight: 500;
@@ -43,6 +48,7 @@ font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+    text-decoration: none;
 
 }
 
